@@ -1,0 +1,245 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF0BB7EE
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFF77F91B
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ColorAnimation1: TColorAnimation
+    Duration = 0.200000002980232200
+    PropertyName = 'Fill.Color'
+    StartValue = claWhite
+    StopValue = claWhite
+  end
+  object ColorKeyAnimation1: TColorKeyAnimation
+    Duration = 0.200000002980232200
+    Keys = <>
+    PropertyName = 'Fill.Color'
+    StartFromCurrent = False
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 315.000000000000000000
+    Viewport.Height = 432.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      TextSettings.Font.Family = 'Century'
+      TextSettings.Font.Size = 30.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      StyledSettings = [FontColor]
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Ol'#225'!!'
+    end
+    object ListBoxItem2: TListBoxItem
+      TextSettings.Font.Family = 'Century'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      StyledSettings = [FontColor]
+      Position.Y = 44.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Gostaria de saber seu IMC?'
+    end
+    object ListBoxItem3: TListBoxItem
+      TextSettings.Font.Family = 'Dubai'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Style, FontColor]
+      Position.Y = 88.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Digite sua altura (m):'
+    end
+    object ListBoxItem4: TListBoxItem
+      TextSettings.Font.Family = 'Century'
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Size, Style, FontColor]
+      Position.Y = 132.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object txtAltura: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Size.Width = 244.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem5: TListBoxItem
+      TextSettings.Font.Family = 'Dubai'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Style, FontColor]
+      Position.Y = 176.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Digite seu peso (kg):'
+    end
+    object ListBoxItem6: TListBoxItem
+      TextSettings.Font.Family = 'Century'
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Size, Style, FontColor]
+      Position.Y = 220.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object txtPeso: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Center
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        Size.Width = 244.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem10: TListBoxItem
+      Position.Y = 264.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object Button1: TButton
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Calcular'
+        TintColor = claLime
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Position.X = 176.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 136.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Limpar'
+        TintColor = claRed
+      end
+    end
+    object ListBoxItem7: TListBoxItem
+      TextSettings.Font.Family = 'Dubai'
+      TextSettings.Font.Size = 20.000000000000000000
+      StyledSettings = [Style, FontColor]
+      Position.Y = 308.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = 'Seu IMC '#233' de:'
+      object lblImc: TLabel
+        StyledSettings = [FontColor]
+        Position.X = 128.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Dubai'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TabOrder = 8
+      end
+    end
+    object ListBoxItem8: TListBoxItem
+      TextSettings.Font.Family = 'Dubai'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Style, FontColor]
+      Position.Y = 352.000000000000000000
+      TabOrder = 8
+      Text = 'Situa'#231#227'o:'
+    end
+    object ListBoxItem9: TListBoxItem
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style, FontColor]
+      Position.Y = 396.000000000000000000
+      TabOrder = 9
+      object lblSit: TLabel
+        Align = Client
+        StyledSettings = [FontColor]
+        Size.Width = 315.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Dubai'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+      end
+    end
+  end
+  object GradientAnimation1: TGradientAnimation
+    Duration = 0.200000002980232200
+    PropertyName = 'Fill.Gradient'
+    StartValue.Points = <
+      item
+        Color = claBlack
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    StopValue.Points = <
+      item
+        Color = claBlack
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+  end
+  object ToolBar1: TToolBar
+    Opacity = 0.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+end

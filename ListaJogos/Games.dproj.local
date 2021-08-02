@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/22 21:46:56.000.557,=D:\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 04:11:40.947,=D:\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 04:13:53.298,D:\MOB1\ListaJogos\untPrincipal.pas=D:\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 04:13:53.298,D:\MOB1\ListaJogos\untPrincipal.fmx=D:\Unit1.fmx</Transaction>
+    <Transaction>2021/04/06 04:14:14.560,D:\MOB1\ListaJogos\Games.dproj=D:\Project1.dproj</Transaction>
+    <Transaction>2021/04/06 04:33:48.412,=D:\MOB1\ListaJogos\Unit2.pas</Transaction>
+    <Transaction>2021/04/06 04:34:29.153,D:\MOB1\ListaJogos\untSkyrim.fmx=D:\MOB1\ListaJogos\Unit2.fmx</Transaction>
+    <Transaction>2021/04/06 04:34:29.153,D:\MOB1\ListaJogos\untSkyrim.pas=D:\MOB1\ListaJogos\Unit2.pas</Transaction>
+    <Transaction>2021/04/06 04:53:41.613,=D:\MOB1\ListaJogos\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 04:54:03.038,=D:\MOB1\ListaJogos\Unit3.pas</Transaction>
+    <Transaction>2021/04/06 04:54:23.867,D:\MOB1\ListaJogos\untNier.pas=D:\MOB1\ListaJogos\Unit3.pas</Transaction>
+    <Transaction>2021/04/06 04:54:23.867,D:\MOB1\ListaJogos\untNier.fmx=D:\MOB1\ListaJogos\Unit3.fmx</Transaction>
+    <Transaction>2021/04/06 04:54:33.734,=D:\MOB1\ListaJogos\Unit4.pas</Transaction>
+    <Transaction>2021/04/06 04:54:59.078,D:\MOB1\ListaJogos\untTLoU.pas=D:\MOB1\ListaJogos\Unit4.pas</Transaction>
+    <Transaction>2021/04/06 04:54:59.078,D:\MOB1\ListaJogos\untTLoU.fmx=D:\MOB1\ListaJogos\Unit4.fmx</Transaction>
+    <Transaction>2021/04/06 04:55:21.657,=D:\MOB1\ListaJogos\Unit5.pas</Transaction>
+    <Transaction>2021/04/06 04:55:34.307,D:\MOB1\ListaJogos\untGoW.pas=D:\MOB1\ListaJogos\Unit5.pas</Transaction>
+    <Transaction>2021/04/06 04:55:34.307,D:\MOB1\ListaJogos\untGoW.fmx=D:\MOB1\ListaJogos\Unit5.fmx</Transaction>
+    <Transaction>2021/04/06 04:55:45.518,=D:\MOB1\ListaJogos\Unit6.pas</Transaction>
+    <Transaction>2021/04/06 04:56:06.066,D:\MOB1\ListaJogos\untDrkS.pas=D:\MOB1\ListaJogos\Unit6.pas</Transaction>
+    <Transaction>2021/04/06 04:56:06.066,D:\MOB1\ListaJogos\untDrkS.fmx=D:\MOB1\ListaJogos\Unit6.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="RQ8N602JW8M" Android64="RQ8N602JW8M"/>
+	</ActiveMobileDevice>
+</BorlandProject>

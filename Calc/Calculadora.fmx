@@ -1,0 +1,238 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 486
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Center
+      StyledSettings = [Family]
+      Size.Width = 320.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 30.000000000000000000
+      TextSettings.Font.StyleExt = {04070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'C'#225'lclos B'#225'sicos'
+      TabOrder = 0
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 438.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'ListBox1Style1'
+    TabOrder = 1
+    Columns = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 438.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      Size.Width = 160.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Insira o 1'#186' Valor:'
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.X = 160.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object txtV1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 0
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 140.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 65.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Insira o 2'#186' Valor:'
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.X = 160.000000000000000000
+      Position.Y = 65.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object txtV2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 0
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 140.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListBoxItem5: TListBoxItem
+      Position.Y = 130.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object btmSoma: TButton
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 140.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '+'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btmSomaClick
+      end
+    end
+    object ListBoxItem6: TListBoxItem
+      Position.X = 160.000000000000000000
+      Position.Y = 130.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object btmSub: TButton
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 140.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '-'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btmSubClick
+      end
+    end
+    object ListBoxItem7: TListBoxItem
+      Position.Y = 190.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      object btmMult: TButton
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 140.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '*'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btmMultClick
+      end
+    end
+    object ListBoxItem8: TListBoxItem
+      Position.X = 160.000000000000000000
+      Position.Y = 190.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object btmDiv: TButton
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 140.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '/'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btmDivClick
+      end
+    end
+    object ListBoxItem11: TListBoxItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, FontColor]
+      Position.Y = 250.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = 'Resultado:'
+    end
+    object lblResult: TListBoxItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 160.000000000000000000
+      Position.Y = 250.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = '...'
+    end
+    object ListBoxItem9: TListBoxItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRed
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size]
+      Position.Y = 330.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      object btmLimpar: TButton
+        Align = Client
+        StyledSettings = [Family, Size]
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 150.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Limpar'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claRed
+        OnClick = btmLimparClick
+      end
+    end
+  end
+end

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/22 21:46:56.000.557,=D:\Unit1.pas</Transaction>
+    <Transaction>2021/03/30 21:39:35.000.581,=D:\Unit1.pas</Transaction>
+    <Transaction>2021/03/30 23:25:14.000.118,D:\Unit1.fmx=D:\MOB1\IMC.fmx</Transaction>
+    <Transaction>2021/03/30 23:25:14.000.118,D:\Unit1.pas=D:\MOB1\IMC.pas</Transaction>
+    <Transaction>2021/03/30 23:25:44.000.218,D:\Project1.dproj=D:\MOB1\CalcIMC.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

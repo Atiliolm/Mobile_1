@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Center
+      Size.Width = 320.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'C'#225'lclos B'#225'sicos'
+      TabOrder = 0
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Columns = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 432.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      TabOrder = 0
+      Text = 'ListBoxItem1'
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.X = 160.000000000000000000
+      TabOrder = 1
+      Text = 'ListBoxItem2'
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 44.000000000000000000
+      TabOrder = 2
+      Text = 'ListBoxItem3'
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.X = 160.000000000000000000
+      Position.Y = 44.000000000000000000
+      TabOrder = 3
+      Text = 'ListBoxItem4'
+    end
+  end
+end

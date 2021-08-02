@@ -1,0 +1,84 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {04070000000000000004000000}
+    end
+  end
+  inherited ListBox1: TListBox
+    Size.Width = 450.000000000000000000
+    Size.Height = 647.000000000000000000
+    Viewport.Width = 450.000000000000000000
+    Viewport.Height = 647.000000000000000000
+    inherited ListBoxItem1: TListBoxItem
+      Size.Width = 225.000000000000000000
+    end
+    inherited ListBoxItem2: TListBoxItem
+      Position.X = 225.000000000000000000
+      Size.Width = 225.000000000000000000
+      inherited txtV1: TEdit
+        Size.Width = 205.000000000000000000
+      end
+    end
+    inherited ListBoxItem3: TListBoxItem
+      Size.Width = 225.000000000000000000
+    end
+    inherited ListBoxItem4: TListBoxItem
+      Position.X = 225.000000000000000000
+      Size.Width = 225.000000000000000000
+      inherited txtV2: TEdit
+        Size.Width = 205.000000000000000000
+      end
+    end
+    inherited ListBoxItem5: TListBoxItem
+      Size.Width = 225.000000000000000000
+      inherited btmSoma: TButton
+        Size.Width = 205.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited ListBoxItem6: TListBoxItem
+      Position.X = 225.000000000000000000
+      Size.Width = 225.000000000000000000
+      inherited btmSub: TButton
+        Size.Width = 205.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited ListBoxItem7: TListBoxItem
+      Size.Width = 225.000000000000000000
+      inherited btmMult: TButton
+        Size.Width = 205.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited ListBoxItem8: TListBoxItem
+      Position.X = 225.000000000000000000
+      Size.Width = 225.000000000000000000
+      inherited btmDiv: TButton
+        Size.Width = 205.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited ListBoxItem11: TListBoxItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Size.Width = 225.000000000000000000
+    end
+    inherited lblResult: TListBoxItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Position.X = 225.000000000000000000
+      Size.Width = 225.000000000000000000
+    end
+    inherited ListBoxItem9: TListBoxItem
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Size.Width = 225.000000000000000000
+      inherited btmLimpar: TButton
+        Size.Width = 215.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

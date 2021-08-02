@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/22 21:46:56.000.557,=D:\Unit1.pas</Transaction>
+    <Transaction>2021/03/10 16:15:54.000.363,=D:\Unit1.pas</Transaction>
+    <Transaction>2021/03/10 16:22:04.000.648,D:\MOB1\Calculadora.pas=D:\Unit1.pas</Transaction>
+    <Transaction>2021/03/10 16:22:04.000.648,D:\MOB1\Calculadora.fmx=D:\Unit1.fmx</Transaction>
+    <Transaction>2021/03/10 16:22:35.000.316,D:\MOB1\Calc.dproj=D:\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

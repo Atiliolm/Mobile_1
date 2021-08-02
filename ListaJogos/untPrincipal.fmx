@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = []
+      Size.Width = 320.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Britannic'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claFirebrick
+      TextSettings.HorzAlign = Center
+      Text = 'Jogos'
+      TabOrder = 0
+    end
+    object Button1: TButton
+      Align = Right
+      Position.X = 272.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'infotoolbutton'
+      TabOrder = 1
+      Text = 'Button1'
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 432.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      Size.Width = 320.000000000000000000
+      Size.Height = 86.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'The Elder Scrolls V: Skyrim'
+      OnClick = ListBoxItem1Click
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 86.000000000000000000
+      Size.Width = 320.000000000000000000
+      Size.Height = 86.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Nier Automata'
+      OnClick = ListBoxItem2Click
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 172.000000000000000000
+      Size.Width = 320.000000000000000000
+      Size.Height = 86.699996948242190000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'The Last Of Us '
+      OnClick = ListBoxItem3Click
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Y = 258.700012207031300000
+      Size.Width = 320.000000000000000000
+      Size.Height = 86.699996948242190000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'God Of War II'
+      OnClick = ListBoxItem4Click
+    end
+    object ListBoxItem5: TListBoxItem
+      Position.Y = 345.400024414062500000
+      Size.Width = 320.000000000000000000
+      Size.Height = 86.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Dark Souls'
+      OnClick = ListBoxItem5Click
+    end
+  end
+end
